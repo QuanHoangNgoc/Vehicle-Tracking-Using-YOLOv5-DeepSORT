@@ -1,0 +1,16 @@
+settings:
+  #################   MODEL CONFIG   ###################
+
+  model_name: 'yolov5s' #[efficientdet-d{i} (0-7) | fasterrcnn-{backbone} | yolov4-p{i} (5,7) | yolov5{i} (s,m,l,x)]
+
+  gpu_devices: '0'                     # supports multi-gpus
+  num_epochs: 300
+  batch_size: 16
+  num_workers: 2
+
+  min_iou:  0.45                     # IOU threshold for validation
+  min_conf: 0.25                    # Confidence score threshold for validation
+  max_det: 300                     # max detections per image limit, output of NMS, set <0 for default [effdet: 100; frcnn: 100; yolo: 300]
+
+  image_size: [640,640]               # should be square to prevent bugs [512, 640, 768, 896, 1024, 1280, 1280, 1536, 1536]
+  keep_ratio: True                     # whether to use resize padding
