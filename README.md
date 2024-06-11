@@ -1,20 +1,13 @@
 # 🏍️ 🚙 Vehicle Tracking using YOLOv5 + DeepSORT 🚌
 
-
-<details open> <summary><strong>Dev logs</strong></summary>
- <strong><i>[19/12/2021]</i></strong> Update to new YOLOv5 version 6. Can load checkpoints from original repo now 🤞 <br>
- <strong><i>[16/07/2021]</i></strong> BIG REFACTOR Code is cleaned and working fine now, promise 🤞 <br>
- <strong><i>[27/09/2021]</i></strong> All trained checkpoints on AIC-HCMC-2020 have been lost. Now use pretrained models on COCO for inference. 
-</details>
-
 ## Method
-- Use [YOLOv5](https://github.com/ultralytics/yolov5) for vehicle detection task, only considers objects in Region of Interest (ROI)
+- Use [YOLOv5](https://github.com/ultralytics/yolov5) for vehicle detection task, only considers objects in Region of Interest (RoI)
 - Use [DeepSORT](https://arxiv.org/abs/1703.07402) for car tracking, not need to retrain this model, only inference
 - Use Cosine Similarity to assign object's tracks to most similar directions.
 - Count each type of vehicle on each direction.
 
 ## 📔 Notebook
-- For inference, use this notebook [![Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15pgDMnvXa-ZgGMeZkbbpg-gqa5Nttfi3?usp=sharing)
+- For Quick user guide, link to this kaggle notebook: 
 - To retrain detection model, follow instructions from [original Yolov5](https://github.com/ultralytics/yolov5)
 
 -----------------------------------------------------------
@@ -41,7 +34,6 @@ cam_01.json # match video name
     ],
 }
 ```
-
 <div align="center"><img width="1000" alt="screen" src="demo/dataset.png"></div>
 
 ## 🥇 Pretrained weights
