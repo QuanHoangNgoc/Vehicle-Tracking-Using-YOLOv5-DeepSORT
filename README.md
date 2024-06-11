@@ -61,8 +61,7 @@ python run.py --input_path=<input video or dir> --output_path=<output dir> --wei
 - **Extra Parameters**:
     - ***--min_conf***:     minimum confident for detection
     - ***--min_iou***:      minimum iou for detection
-    - 
------------------------------------------------------------
+
 ## Results
 - After running, a .csv file contains results has following example format:
 track_id |	frame_id |	box	| color |	label |	direction |	fpoint |	lpoint |	fframe |	lframe
