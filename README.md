@@ -7,7 +7,7 @@
 - Count each type of vehicle on each direction.
 
 ### 📔 Notebook
-- For a quick user guide, link to this kaggle notebook: 
+- For a quick user guide, link to this kaggle notebook: https://www.kaggle.com/code/quanhoangngoc/demo-counting/notebook
 - To retrain detection model, follow instructions from [original Yolov5](https://github.com/ultralytics/yolov5)
 
 -----------------------------------------------------------
