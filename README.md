@@ -7,13 +7,13 @@
 - Count each type of vehicle on each direction.
 
 ## 📔 Notebook
-- For Quick user guide, link to this kaggle notebook: 
+- For a quick user guide, link to this kaggle notebook: 
 - To retrain detection model, follow instructions from [original Yolov5](https://github.com/ultralytics/yolov5)
 
 -----------------------------------------------------------
 
 ## Dataset
-- AIC-HCMC-2020: [link](https://drive.google.com/drive/folders/1VPSEn1thUa-Y1NtzSiBbinpwOjYW_GL5?usp=share_link)
+- AIC-HCMC-2020: [link](https://drive.google.com/drive/folders/1VPSEn1thUa-Y1NtzSiBbinpwOjYW_GL5?usp=share_link) or you can find a it's piece on kaggle dataset. 
 - Direction and ROI annotation format:
 ```
 cam_01.json # match video name
