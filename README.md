@@ -38,6 +38,7 @@ cam_01.json # match video name
 -----------------------------------------------------------
 ## 🥇 Pretrained weights and quick experiment
 - Download finetuned models from on AIC-HCMC-2020 dataset:
+
 Model | Image Size | Weights | Precision | Recall | MAP@0.5 | MAP@0.5-0.95
 --- | --- | --- | --- | --- | --- | ---
 YOLOv5s | 640x640 | [link](https://drive.google.com/file/d/1-Y6H3QdRevfBKYDQxgRiR2CRinRVPt9O/view?usp=sharing) | 0.87203 |	0.87356 |	0.91797 |	0.60795
@@ -64,11 +65,13 @@ python run.py --input_path=<input video or dir> --output_path=<output dir> --wei
 
 ## Results
 - After running, a .csv file contains results has following example format:
+  
 track_id |	frame_id |	box	| color |	label |	direction |	fpoint |	lpoint |	fframe |	lframe
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
 2	| 3	| [607, 487, 664, 582]	| (144, 238, 144) |	0	| 1	| (635.5, 534.5)	| (977.0, 281.5)	| 3	| 109
 2	| 4	| [625, 475, 681, 566]	| (144, 238, 144)	| 0	| 1	| (635.5, 534.5)	| (977.0, 281.5)	| 3	| 109
 2	| 5	| [631, 471, 686, 561]	| (144, 238, 144)	| 0	| 1	| (635.5, 534.5)	| (977.0, 281.5)	| 3	| 109
+
 - With:
   - `track_id`: the id of the object
   - `frame_id`: the current frame
