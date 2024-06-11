@@ -82,10 +82,11 @@ track_id |	frame_id |	box	| color |	label |	direction |	fpoint |	lpoint |	fframe
   - `fframe`, `lframe`: first/last frame where the object appears 
 
 | Visualization result |
+<!---
 |:-------------------------:|
 |<img width="1604" alt="screen" src="demo/cam_04.gif">|
 |<img width="1604" alt="screen" src="demo/cam_07.gif">|
-
+---> 
 
 -----------------------------------------------------------
 ## References
