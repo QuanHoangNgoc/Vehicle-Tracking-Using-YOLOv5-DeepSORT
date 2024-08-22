@@ -51,7 +51,7 @@ track_id |	frame_id |	box	| color |	label |	direction |	fpoint |	lpoint |	fframe
 ```
 
 ### **🔍 Dataset**
-- **AIC-HCMC-2020 Dataset**: This dataset is used for model training and evaluation. [Download here](https://drive.google.com/drive/folders/1VPSEn1thUa-Y1NtzSiBbinpwOjYW_GL5?usp=share_link).
+- **AIC-HCMC-2020 Dataset**: This dataset is used for model training and evaluation. 
 - **ROI and Direction Annotations**: Provided in a JSON format, matching video names and defining the regions and directions for tracking.
 
 ### **🔧 Installation & Inference**
@@ -69,6 +69,8 @@ python run.py --input_path=<input video or dir> --output_path=<output dir> --wei
 #### **Extra Parameters**:
 - `--min_conf`: Minimum confidence for detection.
 - `--min_iou`: Minimum IoU for detection.
+
+If you need guideline, follow this [kaggle_notebook](https://www.kaggle.com/code/quanhoangngoc/demo-counting/notebook)
 
 ### **🏅 Achievements**
 - **High Precision and Recall**: The YOLOv5 models fine-tuned on the AIC-HCMC-2020 dataset demonstrate exceptional performance.
