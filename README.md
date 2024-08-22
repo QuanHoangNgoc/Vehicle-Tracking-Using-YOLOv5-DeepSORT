@@ -10,7 +10,7 @@ This repository provides a complete pipeline for detecting and tracking vehicles
 
 ### **🎯 Why do we do it?**
 
-Accurate vehicle tracking is crucial for traffic management, urban planning, and safety analysis. By using state-of-the-art models like YOLOv5 for detection and DeepSORT for tracking, this project enables high precision in monitoring traffic flow and vehicle behavior.
+Accurate vehicle tracking is crucial for traffic management, urban planning, and safety analysis. This project enables high precision in monitoring traffic flow and vehicle behavior by using state-of-the-art models like YOLOv5 for detection and DeepSORT for tracking.
 
 ### **👥 Who is this for?**
 
@@ -70,7 +70,7 @@ python run.py --input_path=<input video or dir> --output_path=<output dir> --wei
 - `--min_conf`: Minimum confidence for detection.
 - `--min_iou`: Minimum IoU for detection.
 
-If you need guideline, follow this [kaggle_notebook](https://www.kaggle.com/code/quanhoangngoc/demo-counting/notebook)
+If you need a guideline, follow this [kaggle_notebook](https://www.kaggle.com/code/quanhoangngoc/demo-counting/notebook)
 
 ### **🏅 Achievements**
 - **High Precision and Recall**: The YOLOv5 models fine-tuned on the AIC-HCMC-2020 dataset demonstrate exceptional performance.
